@@ -95,6 +95,15 @@ function App() {
               <Card click={() => handleClick(8)} value={check.at(8)} />
             </div>
           </div>
+          <div className="flex justify-center">
+            <button
+              className="bg-gradient-to-b from-[#392D69] to-[#B57BEE] mt-4 py-2 px-5 text-3xl rounded-md cursor-pointer text-white"
+              onClick={handleButton}
+            >
+              {" "}
+              RESET{" "}
+            </button>
+          </div>
         </div>
       )}
     </>
